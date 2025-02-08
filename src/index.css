@@ -1,1 +1,25 @@
 @import "tailwindcss";
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .typing-text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: none;
+    width:0;
+    animation: typing 3s steps(50, end) infinite,alternate;
+  }
+  

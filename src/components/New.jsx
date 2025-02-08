@@ -7,7 +7,7 @@ const New = () => {
     <div>
         <div className='flex flex-col items-center justify-center mt-10 text-[#FDFDFD]'>
             <p className='text-sm'>HUGE UPDATE</p>
-            <h2 className='mt-3 text-3xl font-extrabold mb-5 '> What's New?</h2>
+            <h1 className='mt-3 text-3xl font-extrabold mb-5 '> What's New?</h1>
             <p className='text-gray-500'>Here are some of the features of my AI WRAPPER</p>
         </div>
         <div className='flex justify-evenly mt-5 hover:cursor-pointer'>
