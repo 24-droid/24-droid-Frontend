@@ -6,6 +6,7 @@ import Categories from '../components/Categories'
 import Content from '../components/Content'
 import Support from '../components/Support'
 import Customer from '../components/Customer'
+import Usage from '../components/Usage'
 const Home = () => {
   return (
     <div className='bg-[#262626] min-h-screen'>
@@ -16,6 +17,7 @@ const Home = () => {
         <Content />
         <Support />
         <Customer />
+        <Usage />
     </div>
   )
 }
