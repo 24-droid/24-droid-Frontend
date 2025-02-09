@@ -8,9 +8,10 @@ import Support from '../components/Support'
 import Customer from '../components/Customer'
 import Usage from '../components/Usage'
 import Below from '../components/Below'
+import Footer from '../components/Footer'
 const Home = () => {
   return (
-    <div className='bg-[#262626] min-h-screen'>
+    <div className='bg-[#0a0b20] min-h-screen'>
         <Navbar />
         <Hero />
         <New />
@@ -20,6 +21,7 @@ const Home = () => {
         <Customer />
         <Usage />
         <Below />
+        <Footer />
     </div>
   )
 }

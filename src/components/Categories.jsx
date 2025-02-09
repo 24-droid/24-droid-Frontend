@@ -33,7 +33,7 @@ const Categories = () => {
         .flatMap((cat) => cat.img);
 
   return (
-    <div className="flex flex-col md:flex-row justify-center items-start gap-10 mt-20">
+    <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-10 mt-20">
       <div className="bg-white shadow-lg rounded-xl p-6 w-64">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Categories</h2>
         <div className="space-y-2">
