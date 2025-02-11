@@ -1,7 +1,8 @@
 import React from 'react'
 import logo from "../assets/AI.png"
-import { Link } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <div className='flex items-center justify-between z-100'>
         <div>
@@ -13,7 +14,7 @@ const Navbar = () => {
             <Link to="/contact" className='text-[#FDFDFD] font-semibold hover:border-b-2 border-amber-50'>Contact</Link>
         </div>
         <div>
-            <button className='text-[#FDFDFD] w-30 h-12 rounded-lg bg-gradient-to-r from-[#1c4cd0] to-[#761cd0] hover:cursor-pointer text-sm font-semibold mr-5'>Create Account</button>
+            <button className='text-[#FDFDFD] w-30 h-12 rounded-lg bg-gradient-to-r from-[#1c4cd0] to-[#761cd0] hover:cursor-pointer text-sm font-semibold mr-5' onClick={()=>{navigate('/signup')}}>Create Account</button>
         </div>
     </div>
   )
