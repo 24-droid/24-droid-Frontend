@@ -12,13 +12,13 @@ const New = () => {
         </div>
         <div className='flex ml-2 flex-col gap-10 justify-evenly md:flex-row mt-5 hover:cursor-pointer'>
             <div>
-                <img src={New1} alt="Feature-Image" className=' w-80 md:w-90 h-70 ml-5 rounded-3xl box'/>
+                <img src={New1} alt="Feature-Image" className=' w-80 md:w-90 h-70 ml-3 rounded-3xl box'/>
             </div>
             <div>
-                <img src={New2} alt="Feature-Image" className=' w-80 md:w-90 h-70 ml-5  rounded-3xl' />
+                <img src={New2} alt="Feature-Image" className=' w-80 md:w-90 h-70 ml-3  rounded-3xl' />
             </div>
             <div>
-                <img src={New3} alt="Feature-Image" className=' w-80 md:w-90 h-70 ml-5 rounded-3xl'/>
+                <img src={New3} alt="Feature-Image" className=' w-80 md:w-90 h-70 ml-3 rounded-3xl'/>
             </div>
         </div>
     </div>
